@@ -11,7 +11,7 @@
     "strictNullChecks": true,
     "baseUrl": ".",
     "paths": {
-      "axios-mock-adapter": [
+      "@openagenda/axios-mock-adapter": [
         "."
       ]
     }

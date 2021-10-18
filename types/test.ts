@@ -1,5 +1,5 @@
 import axios from 'axios';
-import MockAdapter, { RequestHandler } from 'axios-mock-adapter';
+import MockAdapter, { RequestHandler } from '@openagenda/axios-mock-adapter';
 
 const instance = axios.create();
 const mock = new MockAdapter(instance);

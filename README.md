@@ -1,4 +1,4 @@
-# axios-mock-adapter
+# @openagenda/axios-mock-adapter
 
 [![Build Status](https://travis-ci.org/ctimmerm/axios-mock-adapter.svg?branch=master)](https://travis-ci.org/ctimmerm/axios-mock-adapter)
 [![dependencies Status](https://david-dm.org/ctimmerm/axios-mock-adapter/status.svg)](https://david-dm.org/ctimmerm/axios-mock-adapter)
@@ -10,12 +10,12 @@ Axios adapter that allows to easily mock requests
 
 Using npm:
 
-`$ npm install axios-mock-adapter --save-dev`
+`$ npm install @openagenda/axios-mock-adapter --save-dev`
 
 It's also available as a UMD build:
 
-- https://unpkg.com/axios-mock-adapter/dist/axios-mock-adapter.js
-- https://unpkg.com/axios-mock-adapter/dist/axios-mock-adapter.min.js
+- https://unpkg.com/@openagenda/axios-mock-adapter/dist/axios-mock-adapter.js
+- https://unpkg.com/@openagenda/axios-mock-adapter/dist/axios-mock-adapter.min.js
 
 axios-mock-adapter works on Node as well as in a browser, it works with axios v0.9.0 and above.
 
@@ -25,7 +25,7 @@ Mocking a `GET` request
 
 ```js
 var axios = require("axios");
-var MockAdapter = require("axios-mock-adapter");
+var MockAdapter = require("@openagenda/axios-mock-adapter");
 
 // This sets the mock adapter on the default instance
 var mock = new MockAdapter(axios);
@@ -45,7 +45,7 @@ Mocking a `GET` request with specific parameters
 
 ```js
 var axios = require("axios");
-var MockAdapter = require("axios-mock-adapter");
+var MockAdapter = require("@openagenda/axios-mock-adapter");
 
 // This sets the mock adapter on the default instance
 var mock = new MockAdapter(axios);
